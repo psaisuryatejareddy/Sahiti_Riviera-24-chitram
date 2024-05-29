@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riviera'24 - Sahiti's Chitram</title>
+    <title>Sahiti TLA - 24</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -20,41 +20,60 @@
         h1 {
             font-size: 3em;
             color: #2c3e50;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
         }
-        a {
-            display: block;
-            margin: 15px 0;
-            padding: 15px 20px;
-            width: 80%;
-            max-width: 400px;
-            font-size: 1.2em;
+        .button-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            flex-wrap: wrap;
+        }
+        .button-container a {
+            margin: 15px;
+            padding: 20px 40px;
+            font-size: 1.5em;
             color: #fff;
             background-color: #3498db;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 10px;
             transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        a:hover {
+        .button-container a:hover {
             background-color: #2980b9;
             transform: scale(1.05);
         }
-        @media (max-width: 600px) {
+        @media (max-width: 800px) {
             h1 {
                 font-size: 2.5em;
             }
-            a {
-                font-size: 1em;
-                width: 90%;
+            .button-container {
+                flex-direction: column;
+            }
+            .button-container a {
+                width: 80%;
+                margin: 10px 0;
+            }
+        }
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 2em;
+            }
+            .button-container a {
+                font-size: 1.2em;
+                padding: 15px 30px;
             }
         }
     </style>
 </head>
 <body>
-    <h1>Riviera'24 - Sahiti's Chitram</h1>
-    <a href="https://mega.nz/folder/TPxkFDYI#FkKRys9li-RYQ9PiysVqlg" target="_blank">Videos - 1 Link</a>
-    <a href="https://mega.nz/folder/QPtVgSgS#_yi1l3TAcuzCysr-Y7ypKg" target="_blank">Videos - 2 Link</a>
-    <a href="https://mega.nz/folder/NQ4FmYKK#OlMDiHR7h1rDKNVdmkSHzQ" target="_blank">Videos - 3 and Pics - 1 - 2 Link</a>
-    <a href="https://mega.nz/folder/HTYXRZpT#hovXk4zI1bmRnmKsrWCspg" target="_blank">Pics - 3 - 4 Link</a>
+    <h1>Sahiti TLA - 24</h1>
+    <div class="button-container">
+        <a href="Riviera24Chitram.html">Riviera'24 Chitram</a>
+        <a href="Ugadi-24/index.html">Ugadi'24</a>
+    </div>
 </body>
 </html>
